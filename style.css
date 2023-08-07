@@ -46,7 +46,7 @@ canvas{
     top: 25%;
     height: 25%;
     width: 100%;
-    font-size: 90px;
+    font-size: 80px;
     white-space: nowrap;
 }
 #loop>h1{
@@ -75,7 +75,7 @@ canvas{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 70px;
     height: 7%;
     width: 100%;
     backdrop-filter: blur(20px);
@@ -93,7 +93,41 @@ canvas{
     color: #EAF4F4;
     border: none;
 }
-#nav>p{
-    text-decoration: none;
+
+#nav>p>a:link {
     color: #070600;
-}
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  #nav>p>a:visited {
+    color: #070600;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  #nav>p>a:hover {
+    color: #070600;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  #nav>p>a:active {
+    color: #070600;
+    text-decoration: none;
+  }
+  #page>h2{
+    position: absolute;
+    top : 50%;
+    font-weight: 400;
+    left: 5%;
+    color: #070600;
+  }
+  #page>h4{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    color: #748386;
+    font-weight: 400;
+    font-size: 25px;
+  }
