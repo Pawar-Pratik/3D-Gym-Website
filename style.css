@@ -46,7 +46,6 @@ canvas{
     top: 25%;
     height: 25%;
     width: 100%;
-    background-color: brown;
     font-size: 90px;
     white-space: nowrap;
 }
@@ -59,7 +58,7 @@ canvas{
     color: #748386;
 }
 #loop>h1>span{
-    -webkit-text-stroke: 3px, black;
+    -webkit-text-stroke: 3px, #070600;
     font-weight: 400;
 }
 
@@ -70,4 +69,31 @@ canvas{
     100%{
         transform: translateX(-100%);
     }
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 7%;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    z-index: 10;
+}
+#nav>h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+#nav>button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: #748386;
+    color: #EAF4F4;
+    border: none;
+}
+#nav>p{
+    text-decoration: none;
+    color: #070600;
 }
