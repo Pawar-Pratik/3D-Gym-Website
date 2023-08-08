@@ -19,16 +19,19 @@ html,body{
     background-color: #EAF4F4;
 }
 #page1{
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #EAF4F4;
 }
 #page2{
+    position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #EAF4F4;
+    background-color: red;
 }
 #page3{
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #EAF4F4;
@@ -40,6 +43,9 @@ canvas{
     z-index: 9;
 }
 
+
+
+/*Loop*/
 #loop{
     display: flex;
     position: absolute;
@@ -71,6 +77,8 @@ canvas{
     }
 }
 
+
+/*Navbar*/
 #nav{
     display: flex;
     align-items: center;
@@ -99,35 +107,172 @@ canvas{
     text-decoration: none;
   }
   
-  /* visited link */
-  #nav>p>a:visited {
+  #nav>p>a:visited {                  /* visited link */
     color: #070600;
     text-decoration: none;
   }
   
-  /* mouse over link */
-  #nav>p>a:hover {
+  #nav>p>a:hover {                   /* mouse over link */
     color: #070600;
     text-decoration: underline;
   }
   
-  /* selected link */
-  #nav>p>a:active {
+  #nav>p>a:active {                 /* selected link */
     color: #070600;
     text-decoration: none;
   }
-  #page>h2{
+
+  /*main*/
+  #main>#page>p>a{
     position: absolute;
-    top : 50%;
+    padding: 10px 20px;
+    background-color: #38AECC;
+    border-radius: 50px;
+    text-decoration: none;
+    top : 65%;
     font-weight: 400;
     left: 5%;
-    color: #070600;
+    color: #EAF4F4;
   }
+  #main>#page>p>a:visited {
+    color: #EAF4F4;
+    text-decoration: none;
+  }
+  #main>#page>p>a:hover{
+    box-shadow: -10px 20px 15px 0px rgba(0, 0, 0, 0.30);
+  }
+  /* Page (Landing) */
   #page>h4{
     position: absolute;
     top: 70%;
     left: 80%;
+    color: #38AECC;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #page>h2{
+    position: absolute;
+    top : 52%;
+    font-weight: 400;
+    left: 5%;
+    color: #070600;
+  }
+
+
+  /*Page 1*/
+  #page1>#right-text{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+  }
+  #page1>#right-text>h1{
+    color: #38AECC;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #page1>#right-text>h3>b{
+    color: #070600;
+  }
+  #page1>#right-text>h3{
     color: #748386;
     font-weight: 400;
-    font-size: 25px;
+    margin-top: 10px;
   }
+
+  #page1>#left-text{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+  }
+  #page1>#left-text>table{
+    text-align: end;
+    margin-top: 10px; 
+    margin-left: -50px;  
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  #page1>#left-text>h1{
+    color: #38AECC;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  #page1>#center-text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  #page1>#center-text>h1{
+    color: #070600;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  #page1>#center-text>h3{
+    color: #38AECC;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+
+
+
+  /*page 3*/
+  #page3>#form>h2{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    font-size: 36px;
+    color: #070600;
+    font-weight: 400;
+  }
+  #page3>#form>h4{
+    position: absolute;
+    top: 16%;
+    left: 47.5%;
+    font-size: 20px;
+    color: #38AECC;
+    font-weight: 400;
+}
+
+/*page 3 > Form*/
+.contact__form{
+    position: absolute;
+    top: 22%;
+    left: 36.5%;
+    width: 32%;
+    
+}
+.contact__label{
+    font-size: 20px;
+    color:#EAF4F4;
+
+}
+.contact__input{
+    width: 100%;
+    background-color: #748386;
+    color: #EAF4F4;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact__form>div>a{
+    color: #EAF4F4;
+    background-color: #38AECC;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 33%;
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.contact__content{
+    position: static;
+    color: #EAF4F4;
+    background-color: #748386;
+    border-radius: 30px;
+    padding: 10px 50px 10px;
+    margin-top: 10px;
+}
+
