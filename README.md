@@ -12,4 +12,4 @@
   - And the scroll gesture controlling the animation is done by <strong>javascript</strong> only.<br>
   - Whole designing part is first done on <strong>book</strong> and then on <string>Figma</string>.<br>
   - And at last designed website is developed using <strong>HTML</strong> & <strong>CSS</strong>
-</p>p
+</p>
