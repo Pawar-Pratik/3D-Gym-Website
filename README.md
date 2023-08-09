@@ -1,8 +1,9 @@
 <h1>disclaimer</h1>
 <p>
-  -This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080)
+  -This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080)<br>
   -Links and inputs are not working.
 </p>
+<br>
 <h4>This is my 1st 3D website</h4>
 <p>Thats why i mainly focused on working of 3D models animation on scroll gesture, I'll make next 3D website more working.</p>
 <br>
