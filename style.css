@@ -28,7 +28,7 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: #EAF4F4;
 }
 #page3{
     position: relative;
@@ -214,8 +214,6 @@ canvas{
   }
 
 
-
-
   /*page 3*/
   #page3>#form>h2{
     position: absolute;
@@ -275,4 +273,43 @@ canvas{
     padding: 10px 50px 10px;
     margin-top: 10px;
 }
-
+#imgg{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+#imgg>img{
+  margin-top: 30px;
+  width: 530px; 
+  height: 560px; 
+  object-fit: cover;
+  border-radius: 25px;
+}
+#page2>#text-area{
+  position: absolute;
+}
+#text-area>h1{
+  position: fixed;
+  top: 40%;
+  left: 43%;
+  font-size: 45px;
+  font-weight: 800;
+  color: #070600;
+  /*text-shadow: 3px 3px 30px #748386;*/
+  text-shadow: 0 0 30px #748386, 0 0 30px #748386;
+}
+#text-area>h1>b{
+  color: #38AECC;
+}
+#text-area>p{
+  position: fixed;
+  text-align: center;
+  top: 48%;
+  left: 36%;
+  font-size: 20px;
+  font-weight: 400;
+  color: #EAF4F4;
+  /*text-shadow: 3px 3px 30px #748386;*/
+  text-shadow: 0 0 15px #070600, 0 0 15px #070600;
+}
