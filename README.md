@@ -11,6 +11,6 @@
 <p>
   - The animation is done by me, which i created by using <strong>Blender</strong>.<br>
   - And the scroll gesture controlling the animation is done by <strong>javascript</strong> only.<br>
-  - Whole designing part is first done on <strong>book</strong> and then on <string>Figma</string>.<br>
+  - Whole designing part is first done on <strong>book</strong> and then on <strong>Figma</strong>.<br>
   - And at last designed website is developed using <strong>HTML</strong> & <strong>CSS</strong>
 </p>
