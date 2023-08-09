@@ -2,7 +2,10 @@
 <img margin-top="100px" align="right" alt="Coding" width="45%" src="https://cdn.dribbble.com/users/1514097/screenshots/5504420/3d-cube.gif">
 <p>
   -This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080) <br>
-  -Links and inputs are not working.
+  -Links and inputs are not working.<br>
+  -As website processes 150 frames please give 10 seconds to load website.<br>
+  -Also I tried to keep website minimal, by using 4 colors. <br>
+  -Try playing with scrolling gesture.
 </p>
 <br>
 <h3>This is my 1st 3D website</h3>
@@ -15,3 +18,5 @@
   - Whole designing part is first done on <strong>book</strong> and then on <strong>Figma</strong>.<br>
   - And at last designed website is developed using <strong>HTML</strong> & <strong>CSS</strong>
 </p>
+
+
