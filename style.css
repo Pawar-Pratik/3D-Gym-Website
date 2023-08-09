@@ -295,9 +295,9 @@ canvas{
   left: 43%;
   font-size: 45px;
   font-weight: 800;
-  color: #070600;
+  color: #38AECC;
   /*text-shadow: 3px 3px 30px #748386;*/
-  text-shadow: 0 0 30px #748386, 0 0 30px #748386;
+  text-shadow: 0 0 30px #070600, 0 0 30px #070600;
 }
 #text-area>h1>b{
   color: #38AECC;
@@ -312,4 +312,15 @@ canvas{
   color: #EAF4F4;
   /*text-shadow: 3px 3px 30px #748386;*/
   text-shadow: 0 0 15px #070600, 0 0 15px #070600;
+}
+
+#cimg>img{
+  position: fixed;
+  top: 20%;
+  left: 43%;
+  margin-top: 30px;
+  width: 300px; 
+  height: 560px; 
+  object-fit: cover;
+  border-radius: 10px;
 }
