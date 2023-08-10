@@ -1,11 +1,11 @@
 <h1>Disclaimer</h1>
 <img margin-top="100px" align="right" alt="Coding" width="45%" src="https://cdn.dribbble.com/users/1514097/screenshots/5504420/3d-cube.gif">
 <p>
-  -This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080) <br>
-  -Links and inputs are not working.<br>
-  -As website processes 150 frames please give 10 seconds to load website.<br>
-  -Also I tried to keep website minimal, by using 4 colors. <br>
-  -Try playing with scrolling gesture.
+  - This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080) <br>
+  - Links and inputs are not working.<br>
+  - As website processes 150 frames please give 10 seconds to load website.<br>
+  - Also I tried to keep website minimal, by using 4 colors. <br>
+  - Try playing with scrolling gesture.
 </p>
 
 [Website Link](https://pawar-pratik.github.io/3D-Gym-Website/)
@@ -21,4 +21,10 @@
   - And at last designed website is developed using <strong>HTML</strong> & <strong>CSS</strong>
 </p>
 
-
+<h3>Most important thing that made this website 3 dimensional</h3>
+<p>
+  - GSAP<br>
+  - Scroll Trigger<br>
+  - Canvas<br>
+  - Locomotive<br>
+</p>
