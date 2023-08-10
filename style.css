@@ -102,6 +102,10 @@ canvas{
     border: none;
 }
 
+#nav>p{
+  margin-right: 5%;
+}
+
 #nav>p>a:link {
     color: #070600;
     text-decoration: none;
@@ -284,7 +288,7 @@ canvas{
     margin-top: 10px;
 }
 #imgg{
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 200px;
