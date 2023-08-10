@@ -67,6 +67,9 @@ canvas{
     -webkit-text-stroke: 3px, #070600;
     font-weight: 400;
 }
+#loop>h1>i{
+  color: #748386;
+}
 
 @keyframes loop{
     0%{
