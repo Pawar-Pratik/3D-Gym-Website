@@ -1,5 +1,5 @@
 <h1>Disclaimer</h1>
-<img margin-top="100px" align="right" alt="Coding" width="45%" src="https://cdn.dribbble.com/users/1514097/screenshots/5504420/3d-cube.gif">
+<img margin-top="100px" align="right" alt="Coding" width="43%" src="https://cdn.dribbble.com/users/1514097/screenshots/5504420/3d-cube.gif">
 <p>
   - This website is not responsive, so use only <strong>Laptops</strong> to checkout (resoution : 1920*1080) <br>
   - Links and inputs are not working.<br>
